@@ -1,6 +1,6 @@
 # Charlie's Custom Applications List
 
-Hi, Charlie! I have created this README for you to easily run this project locally and deploy it to Vercel.
+Hi, Charlie! I have created this README for you to easily run this project locally.
 
 ## Project setup
 
@@ -55,7 +55,7 @@ To do this, first copy `.env.local.example` into a new file in the same folder c
 ```sh
 # random long string
 AUTH0_SECRET=
-# localhost:3000 if running locally
+# localhost:3000
 AUTH0_BASE_URL=
 # your auth0 domain
 AUTH0_ISSUER_BASE_URL=
@@ -89,7 +89,4 @@ npm run dev
 
 ### Login
 
-Once you have done all of the above in your Auth0 tenant and on your machine configuring this project, you are ready to use the app! Once you run `npm run dev` and visit `http://localhost:3000` you will see a standard Next.js homepage. Click the `Login` and sign in with your Auth0 account information. You should see your profile picture and there will be an option in the dropdown by your profile picture to visit your profile.
-
-On the profile page, you will see your picture, name, and email address, as well as a section called `Applications List` with a `Generate List` button. Click the button and your requested dynamic list should populate the code block on the page.
-# nextjs-charlie-localhost-version
+Once you have done all of the above in your Auth0 tenant and on your machine configuring this project, you are ready to use the app! Once you run `npm run dev` and visit `http://localhost:3000` you will see a standard Next.js homepage. Click the `Login` and sign in with your Auth0 account information. Once logged in, you should see an Application List title with a button to generate the list. Click the button and your requested dynamic list should populate the code block on the page.
