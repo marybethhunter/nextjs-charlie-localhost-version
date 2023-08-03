@@ -7,7 +7,7 @@ Hi, Charlie! I have created this README for you to easily run this project local
 Clone this repository to your machine:
 
 ```bash
-https://github.com/marybethhunter/nextjs-charlie-app.git
+https://github.com/marybethhunter/nextjs-charlie-localhost-version.git
 ```
 
 You could also fork the project to your github account and clone the fork.
